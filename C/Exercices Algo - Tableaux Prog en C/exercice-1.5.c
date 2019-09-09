@@ -10,6 +10,8 @@ finalité: Donner le prix qu'un client devra payer pour un nombre de nuits
 
 int main() {
 	calculerPrix();
+
+	return 0;
 }
 
 /*

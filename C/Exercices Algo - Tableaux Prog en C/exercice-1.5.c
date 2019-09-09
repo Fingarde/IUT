@@ -46,5 +46,5 @@ void calculerPrix()
 	printf("Montant TTC pour la chambre: %.2f\n", totalNuit);
 	printf("Montant TTC pour les petits dejeuners: %.2f\n", totalDejeuner);
 	printf("Total a payer: %.2f\n", totalSansTva);
-	printf("Montant de la TVA (19.6%%1): %.2f\n", tva);
+	printf("Montant de la TVA (19.6%%): %.2f\n", tva);
 }

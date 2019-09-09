@@ -1,9 +1,9 @@
 /*
-programme: exercice-1.5.c
-auteur: Bertrand Timothé
-date: 09/09/2019
-finalité: Donner le prix qu'un client devra payer pour un nombre de nuits
-		et de petits dejeuners défini par l'opérateur.
+		programme: exercice-1.5.c
+		auteur: Bertrand Timothé
+		date: 09/09/2019
+		finalité: Donner le prix qu'un client devra payer pour un nombre de nuits
+				  et de petits dejeuners défini par l'opérateur.
 */
 
 #include <stdio.h>
@@ -29,13 +29,14 @@ int main() {
 */
 void calculerPrix()
 {
-	float nbNuit, nbDejeuner, totalNuit, totalDejeuner, totalSansTva, tva;
+	int nbNuit, nbDejeuner;
+	float totalNuit, totalDejeuner, totalSansTva, tva;
 
 	printf("Nombre de nuits: \n");
-	scanf("%f", &nbNuit);
+	scanf("%d", &nbNuit);
 
 	printf("Nombre de dejeuners: \n");
-	scanf("%f", &nbDejeuner);
+	scanf("%d", &nbDejeuner);
 
 	totalNuit = nbNuit * 50; // Calcul du montant des nuits ( 1 nuit correspond a 50€ )
 	totalDejeuner = nbDejeuner * 5; // Calcul du montant des dejeuners ( 1 dejeuner correspond a 50€ )

@@ -6,7 +6,6 @@ finalité: Donner le prix qu'un client devra payer pour un nombre de nuits
 		et de petits dejeuners défini par l'opérateur.
 */
 
-
 #include <stdio.h>
 
 /*
@@ -22,6 +21,7 @@ finalité: Donner le prix qu'un client devra payer pour un nombre de nuits
 		tva				Montant de la tva de 19.6% tu le prix total
 
 */
+
 void calculerPrix()
 {
 	float nbNuit, nbDejeuner, totalNuit, totalDejeuner, totalSansTva, tva;
@@ -42,7 +42,6 @@ void calculerPrix()
 	printf("Total a payer: %.2f\n", totalSansTva);
 	printf("Montant de la TVA (19.6%%1): %.2f\n", tva);
 }
-
 
 int main() {
 	calculerPrix();
